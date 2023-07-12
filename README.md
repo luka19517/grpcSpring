@@ -1,6 +1,6 @@
-#Spring grpc
+# Spring grpc
 
 
-##Simple authorization grpc server
+## Simple authorization grpc server
 
-##Use case included inside grpc client
+## Use case included inside grpc client
