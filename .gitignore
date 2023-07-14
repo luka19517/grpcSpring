@@ -110,3 +110,10 @@ server/auth-service-demo/auth-service-demo-grpc-client/mvnw.cmd
 server/auth-service-demo/auth-service-demo-grpc-client/mvnw
 server/auth-service-demo/auth-service-demo-grpc-client/mvnw.cmd
 server/auth-service-demo/auth-service-demo-grpc-client/mvnw
+backend/auth-service-demo-grpc-client/mvnw
+backend/auth-service-demo-grpc-client/mvnw.cmd
+backend/.idea/compiler.xml
+backend/.idea/encodings.xml
+backend/.idea/jarRepositories.xml
+backend/.idea/misc.xml
+backend/.idea/vcs.xml
