@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package dev.rulex.authservice.server.service;
+
+option java_multiple_files = true;
+option java_package = "dev.rulex.authservice.server.service";
+option java_outer_classname = "AuthProto";
+
+service AuthService {
+  // Sends a greeting
+  rpc authorize (AuthRequest) returns (AuthResponse) {
+  }
+}
+
+// The request message containing the user's name.
+message AuthRequest {
+  string username = 1;
+  string password = 2;
+}
+
+// The response message containing the greetings
+message AuthResponse {
+  string token = 1;
+}
