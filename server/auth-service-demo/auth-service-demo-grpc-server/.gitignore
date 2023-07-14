@@ -34,3 +34,9 @@ build/
 /mvnw
 /mvnw.cmd
 /.mvn/
+
+/server/auth-service-demo/.idea/
+/server/auth-service-demo-grpc-client/target/
+/server/auth-service-demo-grpc-interface/target/
+/server/auth-service-demo-grpc-server/target/
+
