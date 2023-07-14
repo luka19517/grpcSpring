@@ -99,3 +99,14 @@ server/auth-service-demo/auth-service-demo-grpc-interface/target/protoc-dependen
 server/auth-service-demo/auth-service-demo-grpc-interface/target/protoc-dependencies/fbd1e6918c4547b93a99e0fc7dcbef7e/google/protobuf/wrappers.proto
 server/auth-service-demo/auth-service-demo-grpc-interface/target/protoc-plugins/protoc-3.17.3-windows-x86_64.exe
 server/auth-service-demo/auth-service-demo-grpc-interface/target/protoc-plugins/protoc-gen-grpc-java-1.42.1-windows-x86_64.exe
+server/backend/auth-service-demo-grpc-client/mvnw.cmd
+server/backend/auth-service-demo-grpc-client/mvnw
+server/backend/.idea/vcs.xml
+server/backend/.idea/misc.xml
+server/backend/.idea/jarRepositories.xml
+server/backend/.idea/encodings.xml
+server/backend/.idea/compiler.xml
+server/auth-service-demo/auth-service-demo-grpc-client/mvnw.cmd
+server/auth-service-demo/auth-service-demo-grpc-client/mvnw
+server/auth-service-demo/auth-service-demo-grpc-client/mvnw.cmd
+server/auth-service-demo/auth-service-demo-grpc-client/mvnw
