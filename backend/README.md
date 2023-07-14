@@ -1,10 +1,10 @@
 
-##Position inside root module
+## Position inside root module
 
-##clean targets: 
+## clean targets: 
 
 	mvn clean
 
-##install maven projects
+## install maven projects
 
 	mvn install
