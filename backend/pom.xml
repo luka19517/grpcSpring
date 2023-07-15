@@ -7,7 +7,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>auth-service-demo-grpc-interface</module>
-        <module>auth-service-demo-grpc-client</module>
+        <module>auth-service-client-app</module>
         <module>auth-service-demo-grpc-server</module>
     </modules>
     <properties>
