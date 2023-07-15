@@ -1,8 +1,8 @@
-package dev.rulex.authservicedemogrpcclient.service;
+package dev.rulex.auth.client.service;
 
 
-import dev.rulex.authservice.server.service.AuthRequest;
-import dev.rulex.authservice.server.service.AuthServiceGrpc;
+import dev.rulex.auth.server.service.AuthRequest;
+import dev.rulex.auth.server.service.AuthServiceGrpc;
 import net.devh.boot.grpc.client.inject.GrpcClient;
 import org.springframework.stereotype.Service;
 

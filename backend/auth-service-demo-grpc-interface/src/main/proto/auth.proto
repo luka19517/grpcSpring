@@ -3,7 +3,7 @@ syntax = "proto3";
 package dev.rulex.authservice.server.service;
 
 option java_multiple_files = true;
-option java_package = "dev.rulex.authservice.server.service";
+option java_package = "dev.rulex.auth.server.service";
 option java_outer_classname = "AuthProto";
 
 service AuthService {

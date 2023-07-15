@@ -1,6 +1,6 @@
-package dev.rulex.authservicedemogrpcclient.controller;
+package dev.rulex.auth.client.controller;
 
-import dev.rulex.authservicedemogrpcclient.service.AuthService;
+import dev.rulex.auth.client.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

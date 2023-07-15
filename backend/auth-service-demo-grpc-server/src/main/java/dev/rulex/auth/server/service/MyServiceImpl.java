@@ -1,4 +1,4 @@
-package dev.rulex.authservice.server.service;
+package dev.rulex.auth.server.service;
 
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.server.service.GrpcService;

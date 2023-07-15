@@ -1,6 +1,6 @@
-package dev.rulex.authservice.server.config;
+package dev.rulex.auth.server.config;
 
-import dev.rulex.authservice.server.service.MyServiceImpl;
+import dev.rulex.auth.server.service.MyServiceImpl;
 import io.grpc.netty.shaded.io.grpc.netty.NettyServerBuilder;
 import net.devh.boot.grpc.server.serverfactory.GrpcServerConfigurer;
 import org.springframework.boot.autoconfigure.ImportAutoConfiguration;

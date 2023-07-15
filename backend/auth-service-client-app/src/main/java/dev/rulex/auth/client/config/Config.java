@@ -1,4 +1,4 @@
-package dev.rulex.authservicedemogrpcclient.config;
+package dev.rulex.auth.client.config;
 
 import org.springframework.boot.autoconfigure.ImportAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
