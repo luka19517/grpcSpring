@@ -1,5 +1,3 @@
 <template>
-  <router-view :key="$router.key" />
+  <router-view/>
 </template>
-<script setup>
-</script>
