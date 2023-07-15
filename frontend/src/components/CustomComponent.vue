@@ -11,7 +11,7 @@ async function testConnection() {
 
     const response = await axios({
         method: 'get',
-        url: '/auth-api/test?name=Luka',
+        url: '/api/auth?username=Luka&password=test',
     })
     result.value = response.data
 }

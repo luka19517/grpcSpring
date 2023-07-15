@@ -5,7 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "dev.rulex.authservicedemogrpcclient")
+@ComponentScan(basePackages = "dev.rulex.auth.client")
 @ImportAutoConfiguration({
         net.devh.boot.grpc.client.autoconfigure.GrpcClientAutoConfiguration.class,
         net.devh.boot.grpc.client.autoconfigure.GrpcClientMetricAutoConfiguration.class,

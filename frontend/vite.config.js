@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     port: 3000,
     proxy: {
-      '/auth-api': {
+      '/api': {
         target: 'http://localhost:8888',
         secure: false,
         changeOrigin: true,
