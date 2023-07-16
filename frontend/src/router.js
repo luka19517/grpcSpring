@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 var router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: '/test', component: () => import('./components/CustomComponent.vue') }
+    { path: '/', component: () => import('./components/CustomComponent.vue') }
   ]
 })
 
