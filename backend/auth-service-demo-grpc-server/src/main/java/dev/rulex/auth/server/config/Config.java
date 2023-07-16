@@ -3,9 +3,13 @@ package dev.rulex.auth.server.config;
 import dev.rulex.auth.server.service.MyServiceImpl;
 import io.grpc.netty.shaded.io.grpc.netty.NettyServerBuilder;
 import net.devh.boot.grpc.server.serverfactory.GrpcServerConfigurer;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.ImportAutoConfiguration;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import java.util.concurrent.TimeUnit;
 
@@ -34,6 +38,10 @@ import java.util.concurrent.TimeUnit;
         net.devh.boot.grpc.server.autoconfigure.GrpcServerSecurityAutoConfiguration.class,
         net.devh.boot.grpc.server.autoconfigure.GrpcServerTraceAutoConfiguration.class
 })
+@EntityScan(basePackages = "dev.rulex.auth.server.domain")
+@EnableAutoConfiguration
+@EnableJpaRepositories(basePackages = "dev.rulex.auth.server.domain")
+@ComponentScan(basePackages = "dev.rulex.auth.server.domain")
 public class Config {
 
     @Bean
@@ -41,16 +49,17 @@ public class Config {
         return new MyServiceImpl();
     }
 
-    @Bean
-    public GrpcServerConfigurer keepAliveServerConfigurer() {
-        return serverBuilder -> {
-            if (serverBuilder instanceof NettyServerBuilder) {
-                ((NettyServerBuilder) serverBuilder)
-                        .keepAliveTime(30, TimeUnit.SECONDS)
-                        .keepAliveTimeout(5, TimeUnit.SECONDS)
-                        .permitKeepAliveWithoutCalls(true);
-            }
-        };
-    }
+
+//    @Bean
+//    public GrpcServerConfigurer keepAliveServerConfigurer() {
+//        return serverBuilder -> {
+//            if (serverBuilder instanceof NettyServerBuilder) {
+//                ((NettyServerBuilder) serverBuilder)
+//                        .keepAliveTime(30, TimeUnit.SECONDS)
+//                        .keepAliveTimeout(5, TimeUnit.SECONDS)
+//                        .permitKeepAliveWithoutCalls(true);
+//            }
+//        };
+//    }
 
 }
